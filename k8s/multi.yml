@@ -16,7 +16,7 @@ spec:
           memory: "128Mi"
           cpu: "500m"
     - name: c2
-      image: ingress:latest
+      image: node.js
       ports:
         - containerPort: 8080
       resources:
